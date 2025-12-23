@@ -1653,4 +1653,28 @@ export const bannersDual = {
       timezoneDependent: true,
     },
   ],
+  'Cornucopia of Contention 2': [
+    {
+      name: 'Cornucopia of Contention',
+      image: 2,
+      shortName: 'Varesa',
+      start: '2025-12-23 18:00:00',
+      end: '2026-01-13 14:59:00',
+      color: '#ffa3af',
+      featured: ['varesa', 'xilonen'],
+      featuredRare: ['iansan', 'chevreuse', 'gaming'],
+      version: '6.2',
+    },
+    {
+      name: "Forgefire's Blessing",
+      image: 3,
+      shortName: 'Xilonen',
+      start: '2025-12-23 18:00:00',
+      end: '2026-01-13 14:59:00',
+      color: '#fae3a4',
+      featured: ['varesa', 'xilonen'],
+      featuredRare: ['iansan', 'chevreuse', 'gaming'],
+      version: '6.2',
+    },
+  ],
 };

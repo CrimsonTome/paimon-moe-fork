@@ -13,25 +13,25 @@
   const dispatch = createEventDispatcher();
 
   const featured = {
-    venti: {
-      name: 'Venti',
+    varesa: {
+      name: 'Varesa',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
-    durin: {
-      name: 'Durin',
+    xilonen: {
+      name: 'Xilonen',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
   };
-  const bannerId = 300092;
-  const image = 'venti durin.png';
+  const bannerId = 300093;
+  const image = 'varesa xilonen.png';
   const width = 800;
-  const height = 410;
+  const height = 415;
 
   let loading = true;
   let user = '';

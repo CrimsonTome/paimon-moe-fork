@@ -1,6 +1,6 @@
 <script context="module">
   export async function load({ fetch }) {
-    const promoted = ['bennett', 'faruzan'];
+    const promoted = ['bennett'];
     const builds = {};
     for (const p of promoted) {
       const response = await fetch(`/characters/build/${p}.json`);
@@ -32,7 +32,7 @@
   // import Twitter from './_index/twitter.svelte';
   import Achievement from './_index/achievement.svelte';
   import Furnishing from './_index/furnishing.svelte';
-  import Build from './_index/build.svelte';
+  // import Build from './_index/build.svelte';
   import Ad from '../components/Ad.svelte';
 
   export let builds;
@@ -82,7 +82,8 @@
         <Ad type="mobile" variant="mpu" id="1" />
       </div>
     {/if}
-    <Build on:done={onDone} {builds} />
+    <!-- <Build on:done={onDone} {builds} /> -->
+    <div />
     <Event on:done={onDone} />
     <Item on:done={onDone} />
     <Discord on:done={onDone} />

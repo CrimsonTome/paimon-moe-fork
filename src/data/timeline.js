@@ -24,13 +24,24 @@ export const eventsData = [
     },
     {
       name: "Soulblazers' Snowbound Journey",
-      pos: '0% 30%',
-      zoom: '100%',
-      image: 'Soulblazers Snowbound Journey tmp.png',
+      pos: '40% 20%',
+      zoom: '150%',
+      image: 'Soulblazers Snowbound Journey.png',
       start: '2025-12-19 10:00:00',
       end: '2026-01-05 03:59:00',
       color: '#c8ebf8',
-      url: 'https://www.hoyolab.com/article/42564048',
+      url: 'https://www.hoyolab.com/article/42802603',
+      showOnHome: true,
+    },
+    {
+      name: 'Marvelous Merchandise',
+      pos: '0% 80%',
+      image: 'marvelous_merchandise_event.jpg',
+      start: '2026-01-05 10:00:00',
+      end: '2026-01-12 03:59:59',
+      color: '#fad688',
+      zoom: '200%',
+      url: 'https://www.hoyolab.com/article/42820209',
       showOnHome: true,
     },
   ],
@@ -66,6 +77,17 @@ export const eventsData = [
       end: '2025-12-15 03:59:00',
       color: '#fdfccc',
       url: 'https://www.hoyolab.com/article/42564048',
+      showOnHome: true,
+    },
+    {
+      name: 'Heroic Clash: Saurian Brawl',
+      pos: '0% 70%',
+      zoom: '100%',
+      image: 'Heroic Clash Saurian Brawl tmp.png',
+      start: '2025-12-29 10:00:00',
+      end: '2026-01-07 03:59:00',
+      color: '#c7e272',
+      url: 'https://www.hoyolab.com/article/42820209',
       showOnHome: true,
     },
   ],
@@ -131,6 +153,17 @@ export const eventsData = [
       showOnHome: true,
       timezoneDependent: true,
     },
+    {
+      name: 'Cornucopia of Contention - Varesa Banner',
+      pos: '20% 15%',
+      zoom: '200%',
+      image: 'Cornucopia of Contention 2.png',
+      start: '2025-12-23 18:00:00',
+      end: '2026-01-13 14:59:00',
+      color: '#ffa3af',
+      url: 'https://www.hoyolab.com/article/42820131',
+      showOnHome: true,
+    },
   ],
   [
     {
@@ -168,6 +201,17 @@ export const eventsData = [
       showOnHome: true,
       timezoneDependent: true,
     },
+    {
+      name: "Forgefire's Blessing - Xilonen Banner",
+      pos: '30% 18%',
+      zoom: '200%',
+      image: 'Forgefires Blessing 3.png',
+      start: '2025-12-23 18:00:00',
+      end: '2026-01-13 14:59:00',
+      color: '#fae3a4',
+      url: 'https://www.hoyolab.com/article/42820131',
+      showOnHome: true,
+    },
   ],
   [
     {
@@ -204,6 +248,17 @@ export const eventsData = [
       url: 'https://www.hoyolab.com/article/42563930',
       showOnHome: true,
       timezoneDependent: true,
+    },
+    {
+      name: 'Epitome Invocation - Weapon Banner',
+      pos: '40% 45%',
+      zoom: '200%',
+      image: 'Epitome Invocation 92.png',
+      start: '2025-12-23 18:00:00',
+      end: '2026-01-13 14:59:00',
+      color: '#FFAA4B',
+      url: 'https://www.hoyolab.com/article/42820131',
+      showOnHome: true,
     },
   ],
   [
@@ -249,6 +304,16 @@ export const eventsData = [
       description:
         "When the active character's Bond of Life value increases or decreases, a shockwave will be unleashed, dealing True DMG to nearby opponents.",
     },
+    {
+      name: 'Spiral Abyss',
+      image: 'spiral_abyss.jpg',
+      pos: '50% 20%',
+      start: '2025-12-16 04:00:00',
+      end: '2026-01-16 04:00:00',
+      color: '#4299E1',
+      description:
+        "When the active character triggers Swirl on an opponent, a shockwave will be unleashed at the opponent's position, dealing True DMG. This effect can be triggered once every 2s.",
+    },
   ],
   [
     {
@@ -280,6 +345,16 @@ export const eventsData = [
       color: '#777df3',
       description:
         'Required Elemental Types: Pyro, Cryo, and Hydro. Opening Characters: Klee, Bennett, Citlali, Diona, Chasca, and Sucrose',
+    },
+    {
+      name: 'Imaginarium Theater',
+      image: 'Imaginarium Theater tmp.png',
+      pos: '0% 70%',
+      start: '2026-01-01 04:00:00',
+      end: '2026-02-01 04:00:00',
+      color: '#777df3',
+      description:
+        'Required Elemental Types: Pyro, Hydro, and Electro. Opening Characters: Mavuika, Yanfei, Sigewinne, Dahlia, Clorinde, and Iansan',
     },
   ],
   [
