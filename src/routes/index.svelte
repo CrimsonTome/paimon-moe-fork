@@ -35,7 +35,7 @@
   // import Build from './_index/build.svelte';
   import Ad from '../components/Ad.svelte';
 
-  export let builds;
+  // export let builds;
 
   let refreshLayout;
   let isMobile = false;
