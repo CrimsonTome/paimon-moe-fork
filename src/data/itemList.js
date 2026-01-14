@@ -2064,4 +2064,23 @@ export const itemList = {
     name: 'Cyclic Military Kuuvahki Core',
     rarity: 4,
   },
+
+  winter_icelea: {
+    id: 'winter_icelea',
+    name: 'Winter Icelea',
+  },
+  mask_of_the_virtuous_doctor: {
+    id: 'mask_of_the_virtuous_doctor',
+    name: 'Mask of the Virtuous Doctor',
+    rarity: 5,
+  },
+  remnant_of_the_dreadwing: {
+    id: 'remnant_of_the_dreadwing',
+    name: 'Remnant of the Dreadwing',
+    rarity: 4,
+  },
+  pine_amber: {
+    id: 'pine_amber',
+    name: 'Pine Amber',
+  },
 };
