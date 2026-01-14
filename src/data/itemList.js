@@ -2083,4 +2083,19 @@ export const itemList = {
     id: 'pine_amber',
     name: 'Pine Amber',
   },
+  fractured_eye_of_the_deep_shadow: {
+    id: 'fractured_eye_of_the_deep_shadow',
+    name: 'Fractured Eye of the Deep Shadow',
+    rarity: 2,
+  },
+  aberrant_core_of_the_deep_shadow: {
+    id: 'aberrant_core_of_the_deep_shadow',
+    name: 'Aberrant Core of the Deep Shadow',
+    rarity: 3,
+  },
+  hooked_beak_of_the_deep_shadow: {
+    id: 'hooked_beak_of_the_deep_shadow',
+    name: 'Hooked Beak of the Deep Shadow',
+    rarity: 4,
+  },
 };

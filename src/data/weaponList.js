@@ -17893,4 +17893,230 @@ export const weaponList = {
       },
     ],
   },
+  nocturnes_curtain_call: {
+    id: 'nocturnes_curtain_call',
+    name: "Nocturne's Curtain Call",
+    rarity: 5,
+    atk: 44,
+    secondary: 'CRIT DMG',
+    type: weapons.catalyst,
+    source: 'wish',
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.sundered_glory_of_the_far_north_scions,
+            amount: 5,
+          },
+          {
+            item: itemList.fractured_eye_of_the_deep_shadow,
+            amount: 5,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 3,
+          },
+        ],
+        mora: 10000,
+      },
+      {
+        items: [
+          {
+            item: itemList.unyielding_delusion_of_the_far_north_scions,
+            amount: 5,
+          },
+          {
+            item: itemList.fractured_eye_of_the_deep_shadow,
+            amount: 18,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.unyielding_delusion_of_the_far_north_scions,
+            amount: 9,
+          },
+          {
+            item: itemList.aberrant_core_of_the_deep_shadow,
+            amount: 9,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 9,
+          },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          {
+            item: itemList.oblation_of_the_far_north_scions,
+            amount: 5,
+          },
+          {
+            item: itemList.aberrant_core_of_the_deep_shadow,
+            amount: 18,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 14,
+          },
+        ],
+        mora: 45000,
+      },
+      {
+        items: [
+          {
+            item: itemList.oblation_of_the_far_north_scions,
+            amount: 9,
+          },
+          {
+            item: itemList.hooked_beak_of_the_deep_shadow,
+            amount: 14,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 9,
+          },
+        ],
+        mora: 55000,
+      },
+      {
+        items: [
+          {
+            item: itemList.aureate_radiance_of_the_far_north_scions,
+            amount: 6,
+          },
+          {
+            item: itemList.hooked_beak_of_the_deep_shadow,
+            amount: 27,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 18,
+          },
+        ],
+        mora: 65000,
+      },
+    ],
+  },
+  lightbearing_moonshard: {
+    id: 'lightbearing_moonshard',
+    name: 'Lightbearing Moonshard',
+    rarity: 5,
+    atk: 44,
+    secondary: 'CRIT DMG',
+    type: weapons.sword,
+    source: 'wish',
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.grain_of_aerosiderite,
+            amount: 5,
+          },
+          {
+            item: itemList.mistshroud_manifestation,
+            amount: 5,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 3,
+          },
+        ],
+        mora: 10000,
+      },
+      {
+        items: [
+          {
+            item: itemList.piece_of_aerosiderite,
+            amount: 5,
+          },
+          {
+            item: itemList.mistshroud_manifestation,
+            amount: 18,
+          },
+          {
+            item: itemList.broken_drive_shaft,
+            amount: 12,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.piece_of_aerosiderite,
+            amount: 9,
+          },
+          {
+            item: itemList.mistshroud_plate,
+            amount: 9,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 9,
+          },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          {
+            item: itemList.bit_of_aerosiderite,
+            amount: 5,
+          },
+          {
+            item: itemList.mistshroud_plate,
+            amount: 18,
+          },
+          {
+            item: itemList.reinforced_drive_shaft,
+            amount: 14,
+          },
+        ],
+        mora: 45000,
+      },
+      {
+        items: [
+          {
+            item: itemList.bit_of_aerosiderite,
+            amount: 9,
+          },
+          {
+            item: itemList.mistshroud_helmet,
+            amount: 14,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 9,
+          },
+        ],
+        mora: 55000,
+      },
+      {
+        items: [
+          {
+            item: itemList.chunk_of_aerosiderite,
+            amount: 6,
+          },
+          {
+            item: itemList.mistshroud_helmet,
+            amount: 27,
+          },
+          {
+            item: itemList.precision_drive_shaft,
+            amount: 18,
+          },
+        ],
+        mora: 65000,
+      },
+    ],
+  },
 };
