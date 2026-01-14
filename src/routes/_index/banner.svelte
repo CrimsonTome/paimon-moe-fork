@@ -13,25 +13,25 @@
   const dispatch = createEventDispatcher();
 
   const featured = {
-    varesa: {
-      name: 'Varesa',
+    columbina: {
+      name: 'Columbina',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
-    xilonen: {
-      name: 'Xilonen',
+    ineffa: {
+      name: 'Ineffa',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
   };
-  const bannerId = 300093;
-  const image = 'varesa xilonen.png';
+  const bannerId = 300094;
+  const image = 'columbina ineffa.png';
   const width = 800;
-  const height = 415;
+  const height = 344;
 
   let loading = true;
   let user = '';
