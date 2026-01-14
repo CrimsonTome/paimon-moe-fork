@@ -22,6 +22,17 @@ export const eventsData = [
       url: 'https://www.hoyolab.com/article/42820209',
       showOnHome: true,
     },
+    {
+      name: "Fortune's Coming - Daily Login",
+      pos: '0% 20%',
+      image: 'daily_login.jpg',
+      start: '2026-01-16 04:00:00',
+      end: '2026-02-03 03:59:59',
+      color: '#F18B53',
+      zoom: '200%',
+      url: 'https://www.hoyolab.com/article/43195241',
+      showOnHome: true,
+    },
   ],
   [
     {
@@ -46,6 +57,28 @@ export const eventsData = [
       url: 'https://www.hoyolab.com/article/42820209',
       showOnHome: true,
     },
+    {
+      name: 'Shutterflash Memory Hunt',
+      pos: '0% 10%',
+      image: 'Shutterflash Memory Hunt tmp.png',
+      start: '2026-0116 10:00:00',
+      end: '2026-01-26 03:59:00',
+      color: '#fef9e2',
+      zoom: '100%',
+      url: 'https://www.hoyolab.com/article/43195241',
+      showOnHome: true,
+    },
+    {
+      name: 'Serene Moonlit Night - Lantern Rite Gifts',
+      pos: '0% 20%',
+      image: '',
+      start: '2026-01-30 00:00:00',
+      end: '2026-02-03 00:00:00',
+      color: '#c3e0f4',
+      zoom: '200%',
+      url: 'https://www.hoyolab.com/article/43195241',
+      showOnHome: true,
+    },
   ],
   [
     {
@@ -56,6 +89,18 @@ export const eventsData = [
       start: '2025-12-03 06:00:00',
       end: '2026-01-13 14:59:00',
       color: '#eceff3',
+      url: 'https://www.hoyolab.com/article/42564003',
+      showOnHome: true,
+      timezoneDependent: true,
+    },
+    {
+      name: "A Traveler on a Winter's Night",
+      pos: '0% 0%',
+      zoom: '200%',
+      image: 'A Traveler on a Winters Night.png',
+      start: '2026-01-14 06:00:00',
+      end: '2026-02-24 14:59:00',
+      color: '#cee5eb',
       url: 'https://www.hoyolab.com/article/42564003',
       showOnHome: true,
       timezoneDependent: true,
@@ -216,6 +261,16 @@ export const eventsData = [
       color: '#f97fdf',
       url: 'https://www.hoyolab.com/article/42564048',
     },
+    {
+      name: 'Stygian Onslaught',
+      pos: '0% 40%',
+      zoom: '200%',
+      image: 'Stygian Onslaught.png',
+      start: '2026-01-21 10:00:00',
+      end: '2026-02-24 03:59:59',
+      color: '#f97fdf',
+      url: 'https://www.hoyolab.com/article/43195241',
+    },
   ],
   [
     {
@@ -237,6 +292,26 @@ export const eventsData = [
       color: '#4299E1',
       description:
         "When the active character triggers Swirl on an opponent, a shockwave will be unleashed at the opponent's position, dealing True DMG. This effect can be triggered once every 2s.",
+    },
+    {
+      name: 'Spiral Abyss',
+      image: 'spiral_abyss.jpg',
+      pos: '50% 20%',
+      start: '2026-01-16 04:00:00',
+      end: '2026-02-16 04:00:00',
+      color: '#4299E1',
+      description:
+        "When a character triggers a Lunar reaction (Lunar-Bloom, Lunar-Charged, or Lunar-Crystallize) on an opponent, a shockwave will be unleashed at the opponent's position, dealing True DMG. This effect can be triggered once every 3s.",
+    },
+    {
+      name: 'Spiral Abyss',
+      image: 'spiral_abyss.jpg',
+      pos: '50% 20%',
+      start: '2026-02-16 04:00:00',
+      end: '2026-03-16 04:00:00',
+      color: '#4299E1',
+      description:
+        "When a character deals Lunar-Crystallize DMG to an opponent, a shockwave will be unleashed at the opponent's position, dealing True DMG. This effect can be triggered once every 3s.",
     },
   ],
   [
@@ -260,6 +335,16 @@ export const eventsData = [
       description:
         'Required Elemental Types: Pyro, Hydro, and Electro. Opening Characters: Mavuika, Yanfei, Sigewinne, Dahlia, Clorinde, and Iansan',
     },
+    {
+      name: 'Imaginarium Theater',
+      image: 'Imaginarium Theater tmp.png',
+      pos: '0% 70%',
+      start: '2026-02-01 04:00:00',
+      end: '2026-03-01 04:00:00',
+      color: '#777df3',
+      description:
+        'Required Elemental Types: Pyro, Hydro, and Geo. Opening Characters: Yoimiya, Gaming, Yelan, Barbara, Chiori, and Yun Jin',
+    },
   ],
   [
     {
@@ -270,6 +355,16 @@ export const eventsData = [
       end: '2026-01-12 03:59:59',
       color: '#e4faff',
       url: 'https://www.hoyolab.com/article/40952578',
+      timezoneDependent: true,
+    },
+    {
+      name: 'Battle Pass - Lanternlit Ode',
+      pos: '0% 45%',
+      image: 'Lanternlit Ode.webp',
+      start: '2026-01-14 06:00:00',
+      end: '2026-02-23 03:59:59',
+      color: '#f4ffe2',
+      url: 'https://www.hoyolab.com/article/43195241',
       timezoneDependent: true,
     },
   ],
