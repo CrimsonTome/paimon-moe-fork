@@ -13,25 +13,25 @@
   const dispatch = createEventDispatcher();
 
   const featured = {
-    varka: {
-      name: 'Varka',
+    escoffier: {
+      name: 'Escoffier',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
-    flins: {
-      name: 'Flins',
+    skirk: {
+      name: 'Skirk',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
   };
-  const bannerId = 300096;
-  const image = 'varka flins.webp';
+  const bannerId = 300097;
+  const image = 'escoffier skirk.webp';
   const width = 800;
-  const height = 335;
+  const height = 387;
 
   let loading = true;
   let user = '';

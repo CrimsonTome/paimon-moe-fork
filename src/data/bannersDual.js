@@ -1753,4 +1753,28 @@ export const bannersDual = {
       timezoneDependent: true,
     },
   ],
+  "Void Star's Advent 2": [
+    {
+      name: "Void Star's Advent",
+      image: 2,
+      shortName: 'Skirk',
+      start: '2026-03-17 18:00:00',
+      end: '2026-04-07 14:59:00',
+      color: '#adcdff',
+      featured: ['skirk', 'escoffier'],
+      featuredRare: ['dahlia', 'candace', 'charlotte'],
+      version: '6.4',
+    },
+    {
+      name: 'La Chanson Cerise',
+      image: 2,
+      shortName: 'Escoffier',
+      start: '2026-03-17 18:00:00',
+      end: '2026-04-07 14:59:00',
+      color: '#7af8fd',
+      featured: ['skirk', 'escoffier'],
+      featuredRare: ['dahlia', 'candace', 'charlotte'],
+      version: '6.4',
+    },
+  ],
 };
