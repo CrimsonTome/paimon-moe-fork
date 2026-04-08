@@ -8862,6 +8862,151 @@ export const characters = {
     },
     element: elements.cryo,
   },
+  linnea: {
+    id: 'linnea',
+    name: 'Linnea',
+    rarity: 5,
+    weapon: weapons.bow,
+    stats: {
+      hp: 9895,
+      atk: 144,
+      def: 907,
+    },
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_sliver,
+            amount: 1,
+          },
+          {
+            item: itemList.none,
+            amount: null,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 3,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 3,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 3,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 2,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 10,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 15,
+          },
+        ],
+        mora: 40000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_fragment,
+            amount: 6,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 4,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 20,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 60000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 3,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 8,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 30,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 18,
+          },
+        ],
+        mora: 80000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_chunk,
+            amount: 6,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 12,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 45,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 100000,
+      },
+      {
+        items: [
+          {
+            item: itemList.prithiva_topaz_gemstone,
+            amount: 6,
+          },
+          {
+            item: itemList.plume_of_the_fallen_watcher,
+            amount: 20,
+          },
+          {
+            item: itemList.etherwing_moth,
+            amount: 60,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 24,
+          },
+        ],
+        mora: 120000,
+      },
+    ],
+    material: {
+      material: [itemList.tattered_warrant, itemList.immaculate_warrant, itemList.frost_etched_warrant],
+      book: [itemList.teachings_of_vagrancy, itemList.guide_to_vagrancy, itemList.philosophies_of_vagrancy],
+      boss: itemList.elixir_of_the_heretic,
+    },
+    element: elements.geo,
+  },
   lisa: {
     id: 'lisa',
     name: 'Lisa',

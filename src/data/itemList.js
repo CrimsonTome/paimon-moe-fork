@@ -2103,4 +2103,14 @@ export const itemList = {
     name: 'Prismatic Severed Tail',
     rarity: 4,
   },
+  elixir_of_the_heretic: { id: 'elixir_of_the_heretic', name: 'Elixir of the Heretic' },
+  etherwing_moth: {
+    id: 'etherwing_moth',
+    name: 'Etherwing Moth',
+  },
+  plume_of_the_fallen_watcher: {
+    id: 'plume_of_the_fallen_watcher',
+    name: 'Plume of the Fallen Watcher',
+    rarity: 4,
+  },
 };
