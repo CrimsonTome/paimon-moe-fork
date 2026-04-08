@@ -2113,4 +2113,19 @@ export const itemList = {
     name: 'Plume of the Fallen Watcher',
     rarity: 4,
   },
+  faded_flaming_hilt: {
+    id: 'faded_flaming_hilt',
+    name: 'Faded Flaming Hilt',
+    rarity: 2,
+  },
+  fractured_flaming_hilt: {
+    id: 'fractured_flaming_hilt',
+    name: 'Fractured Flaming Hilt',
+    rarity: 3,
+  },
+  jeweled_flaming_hilt: {
+    id: 'jeweled_flaming_hilt',
+    name: 'Jeweled Flaming Hilt',
+    rarity: 4,
+  },
 };

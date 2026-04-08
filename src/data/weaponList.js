@@ -18232,4 +18232,116 @@ export const weaponList = {
       },
     ],
   },
+  golden_frostbound_oath: {
+    id: 'golden_frostbound_oath',
+    name: 'Golden Frostbound Oath',
+    rarity: 5,
+    atk: '44',
+    secondary: 'critDamage',
+    type: 'bow',
+    ascension: [
+      {
+        items: [
+          {
+            item: itemList.ember_of_long_night_flint,
+            amount: 5,
+          },
+          {
+            item: itemList.faded_flaming_hilt,
+            amount: 5,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 3,
+          },
+        ],
+        mora: 10000,
+      },
+      {
+        items: [
+          {
+            item: itemList.afterglow_of_long_night_flint,
+            amount: 5,
+          },
+          {
+            item: itemList.faded_flaming_hilt,
+            amount: 18,
+          },
+          {
+            item: itemList.tattered_warrant,
+            amount: 12,
+          },
+        ],
+        mora: 20000,
+      },
+      {
+        items: [
+          {
+            item: itemList.afterglow_of_long_night_flint,
+            amount: 9,
+          },
+          {
+            item: itemList.fractured_flaming_hilt,
+            amount: 9,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 9,
+          },
+        ],
+        mora: 30000,
+      },
+      {
+        items: [
+          {
+            item: itemList.flare_of_long_night_flint,
+            amount: 5,
+          },
+          {
+            item: itemList.fractured_flaming_hilt,
+            amount: 18,
+          },
+          {
+            item: itemList.immaculate_warrant,
+            amount: 14,
+          },
+        ],
+        mora: 45000,
+      },
+      {
+        items: [
+          {
+            item: itemList.flare_of_long_night_flint,
+            amount: 9,
+          },
+          {
+            item: itemList.jeweled_flaming_hilt,
+            amount: 14,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 9,
+          },
+        ],
+        mora: 55000,
+      },
+      {
+        items: [
+          {
+            item: itemList.blaze_of_long_night_flint,
+            amount: 6,
+          },
+          {
+            item: itemList.jeweled_flaming_hilt,
+            amount: 27,
+          },
+          {
+            item: itemList.frost_etched_warrant,
+            amount: 18,
+          },
+        ],
+        mora: 65000,
+      },
+    ],
+  },
 };
