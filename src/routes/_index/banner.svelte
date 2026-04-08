@@ -13,25 +13,25 @@
   const dispatch = createEventDispatcher();
 
   const featured = {
-    escoffier: {
-      name: 'Escoffier',
+    chasca: {
+      name: 'Chasca',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
-    skirk: {
-      name: 'Skirk',
+    linnea: {
+      name: 'Linnea',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
   };
-  const bannerId = 300097;
-  const image = 'escoffier skirk.webp';
+  const bannerId = 300098;
+  const image = 'chasca linnea.webp';
   const width = 800;
-  const height = 387;
+  const height = 500;
 
   let loading = true;
   let user = '';
