@@ -57,6 +57,7 @@
   const bannerDates = {
     characters: {},
     weapons: {},
+    chronicled: {},
   };
 
   const eventDates = {};
@@ -109,6 +110,7 @@
         const birthday = birthdayDates?.[date.month() + 1]?.[dateNumber];
         const bannerChar = bannerDates.characters?.[date.year()]?.[date.month()]?.[dateNumber];
         const bannerWeap = bannerDates.weapons?.[date.year()]?.[date.month()]?.[dateNumber];
+        const bannerChronicled = bannerDates.chronicled?.[date.year()]?.[date.month()]?.[dateNumber];
         const event = eventDates?.[date.year()]?.[date.month()]?.[dateNumber];
 
         const highlited = date.isSame(hightligtedDate, 'day');
@@ -122,6 +124,7 @@
           b: birthday,
           wc: bannerChar,
           wp: bannerWeap,
+          wh: bannerChronicled,
           e: event,
         });
       }
@@ -196,7 +199,7 @@
     sortedLegendary = Object.entries(lastLegendary).sort((a, b) => b[1] - a[1]);
     sortedRare = Object.entries(lastRare).sort((a, b) => b[1] - a[1]);
 
-    console.log(sortedLegendary);
+    // console.log(sortedLegendary);
   }
 
   function processBirthday() {
@@ -280,13 +283,14 @@
     window.scrollTo(0, 0);
   }
 
-  function openDetail(type, event) {
+  function openDetail(type, event, bannerType) {
     openModal(
       DetailModal,
       {
         type,
         event,
         timeDifference,
+        bannerType,
       },
       {
         closeButton: false,
@@ -333,6 +337,7 @@
     processBirthday();
     processBanner('characters');
     processBanner('weapons');
+    processBanner('chronicled');
     processEvent();
     processChar();
     process();
@@ -434,6 +439,15 @@
                       <img class="w-6 h-6 inline" src="/images/weapons/{weapon}.png" alt={weapon} />
                     {/each}
                     <!-- <img class="w-6 h-6 inline" src="/images/intertwined_fate.png" alt="fate" /> -->
+                  </div>
+                {/if}
+                 {#if day.wh}
+                  <div
+                    on:click={() => openDetail('banners', day.wh, 'chronicled')}
+                    style="--tw-ring-color: {day.wh.color}; background-color: {day.wh.color};"
+                    class="cursor-pointer rounded-md inline-flex items-center text-sm px-2 space-x-1 ring-offset-1 ring-offset-background hover:ring-2"
+                  >
+                    {day.wh.name}
                   </div>
                 {/if}
                 {#if day.b}

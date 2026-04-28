@@ -9,6 +9,7 @@
   import { weaponList } from '../../data/weaponList';
 
   export let type;
+  export let bannerType;
   export let event;
   export let timeDifference;
 
@@ -69,7 +70,7 @@
             <span>{$t(weaponList[weapon].name)}</span>
           </span>
         {/each}
-      {:else}
+      {:else if bannerType !== 'chronicled'}
         {#each event.featured as char}
           <span class="bg-legendary-to rounded-xl px-2 inline-block text-white">
             <img class="w-6 h-6 inline" src="/images/characters/{char}.png" alt={char} />
@@ -80,6 +81,21 @@
           <span class="bg-rare-to rounded-xl px-2 inline-block text-white">
             <img class="w-6 h-6 inline" src="/images/characters/{char}.png" alt={char} />
             <span>{$t(characters[char].name)}</span>
+          </span>
+        {/each}
+      {:else if bannerType === 'chronicled'}
+        {#each event.featured as item}
+          {@const isChar = characters[item] !== undefined}
+          <span class="bg-legendary-to rounded-xl px-2 inline-block text-white">
+            <img class="w-6 h-6 inline" src="/images/{isChar ? 'characters/' : 'weapons/'}{item}.png" alt={item} />
+            <span>{$t(isChar ? characters[item].name : weaponList[item].name)}</span>
+          </span>
+        {/each}
+        {#each event.featuredRare as item}
+          {@const isChar = characters[item] !== undefined}
+          <span class="bg-rare-to rounded-xl px-2 inline-block text-white">
+            <img class="w-6 h-6 inline" src="/images/{isChar ? 'characters/' : 'weapons/'}{item}.png" alt={item} />
+            <span>{$t(isChar ? characters[item].name : weaponList[item].name)}</span>
           </span>
         {/each}
       {/if}

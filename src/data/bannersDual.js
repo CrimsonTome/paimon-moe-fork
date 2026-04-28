@@ -1803,4 +1803,28 @@ export const bannersDual = {
       timezoneDependent: true,
     },
   ],
+  'Moonsong of the Groves 2': [
+    {
+      name: 'Moonsong of the Groves',
+      image: 2,
+      shortName: 'Lauma',
+      start: '2026-04-28 18:00:00',
+      end: '2026-05-19 14:59:00',
+      color: '#d7f0f3',
+      featured: ['lauma', 'nefer'],
+      featuredRare: ['xingqiu', 'kirara', 'jahoda'],
+      version: '6.5',
+    },
+    {
+      name: 'Temptation of the Crimson Sands',
+      image: 2,
+      shortName: 'Nefer',
+      start: '2026-04-28 18:00:00',
+      end: '2026-05-19 14:59:00',
+      color: '#fcdcd0',
+      featured: ['lauma', 'nefer'],
+      featuredRare: ['xingqiu', 'kirara', 'jahoda'],
+      version: '6.5',
+    },
+  ],
 };
