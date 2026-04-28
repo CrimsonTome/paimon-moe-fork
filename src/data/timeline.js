@@ -1,6 +1,19 @@
 export const eventsData = [
   [
     {
+      name: 'Ley Line Overflow',
+      pos: '0% 35%',
+      image: 'leyline_overflow.jpg',
+      start: '2026-05-11 04:00:00',
+      end: '2026-05-18 03:59:59',
+      color: '#43DA8C',
+      zoom: '200%',
+      url: 'https://www.hoyolab.com/article/44765428',
+      showOnHome: true,
+    },
+  ],
+  [
+    {
       name: 'Homeward, He Who Caught the Wind',
       pos: '0% 20%',
       zoom: '200%',
@@ -44,6 +57,17 @@ export const eventsData = [
       url: 'https://www.hoyolab.com/article/44541722',
       showOnHome: true,
     },
+    {
+      name: 'Where Waves Meet the Reef',
+      pos: '0% 15%',
+      zoom: '200%',
+      image: 'Where Waves Meet the Reef.png',
+      start: '2026-04-27 10:00:00',
+      end: '2026-05-14 03:59:00',
+      color: '#c8f8fd',
+      url: 'https://www.hoyolab.com/article/44793015',
+      showOnHome: true,
+    },
   ],
   [
     {
@@ -78,6 +102,17 @@ export const eventsData = [
       end: '2026-04-28 03:59:00',
       color: '#928eff',
       url: 'https://www.hoyolab.com/article/44512632',
+      showOnHome: true,
+    },
+    {
+      name: 'Rapid Capture',
+      pos: '0% 20%',
+      zoom: '200%',
+      image: 'Rapid Capture tmp.webp',
+      start: '2026-05-06 10:00:00',
+      end: '2026-05-18 03:59:00',
+      color: '#e6d8b9',
+      url: 'https://www.hoyolab.com/article/44765428',
       showOnHome: true,
     },
   ],
@@ -117,6 +152,17 @@ export const eventsData = [
       showOnHome: true,
       timezoneDependent: true,
     },
+    {
+      name: 'Moonsong of the Groves - Lauma Banner',
+      pos: '30% 15%',
+      zoom: '200%',
+      image: 'Moonsong of the Groves 2.png',
+      start: '2026-04-28 18:00:00',
+      end: '2026-05-19 14:59:00',
+      color: '#d7f0f3',
+      url: 'https://www.hoyolab.com/article/44765320',
+      showOnHome: true,
+    },
   ],
   [
     {
@@ -153,6 +199,17 @@ export const eventsData = [
       url: 'https://www.hoyolab.com/article/44512635',
       showOnHome: true,
       timezoneDependent: true,
+    },
+    {
+      name: 'Temptation of the Crimson Sands - Nefer Banner',
+      pos: '30% 15%',
+      zoom: '200%',
+      image: 'Temptation of the Crimson Sands 2.png',
+      start: '2026-04-28 18:00:00',
+      end: '2026-05-19 14:59:00',
+      color: '#2dd891',
+      url: 'https://www.hoyolab.com/article/44765320',
+      showOnHome: true,
     },
   ],
   [
@@ -191,6 +248,17 @@ export const eventsData = [
       showOnHome: true,
       timezoneDependent: true,
     },
+    {
+      name: 'Epitome Invocation - Weapon Banner',
+      pos: '40% 25%',
+      zoom: '200%',
+      image: 'Epitome Invocation 98.png',
+      start: '2026-04-28 18:00:00',
+      end: '2026-05-19 14:59:00',
+      color: '#FFAA4B',
+      url: 'https://www.hoyolab.com/article/44765320',
+      showOnHome: true,
+    },
   ],
   [
     {
@@ -204,6 +272,17 @@ export const eventsData = [
       url: 'https://www.hoyolab.com/article/43911910',
       showOnHome: true,
       timezoneDependent: true,
+    },
+    {
+      name: 'Dewlit Tranquility - Fontaine Banner',
+      pos: '50% 25%',
+      zoom: '200%',
+      image: 'Dewlit Tranquility 1.png',
+      start: '2026-04-28 18:00:00',
+      end: '2026-05-19 14:59:00',
+      color: '#eee8e1',
+      url: 'https://www.hoyolab.com/article/44765320',
+      showOnHome: true,
     },
   ],
   [
