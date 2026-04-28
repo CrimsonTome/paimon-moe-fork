@@ -13,25 +13,25 @@
   const dispatch = createEventDispatcher();
 
   const featured = {
-    chasca: {
-      name: 'Chasca',
+    lauma: {
+      name: 'Lauma',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
-    linnea: {
-      name: 'Linnea',
+    nefer: {
+      name: 'Nefer',
       rarity: 'legendary',
       count: 0,
       average: '...',
       percentage: '...',
     },
   };
-  const bannerId = 300098;
-  const image = 'chasca linnea.webp';
+  const bannerId = 300099;
+  const image = 'lauma nefer.webp';
   const width = 800;
-  const height = 500;
+  const height = 364;
 
   let loading = true;
   let user = '';
